@@ -1,3 +1,8 @@
+## Why I made This
+
+I searched the internet for long amounts of time to find various answers to parts of the problem scattered across random virus blogs, stack overflow,
+and the documentation so I made my own repo explaining how this works for anyone interested in not using CMake.
+
 ## Meson with Vim
 
 So essentially you can create a compile_commands.json and coc-vim will pick up that file and allow you to use external libraries in auto completion.
@@ -10,15 +15,17 @@ Meson allows you to just use external deps without having to compile libraries f
 cross platform and open source, the only issue is that there aren't as many examples out there of using Meson so it can be somewhat hard to figure how
 to do something with Meson without reading docs and putting it together by yourself. The way that this is written is very similar to something like
 cargo with rust, you simply just tell meson what dependencies you would like to use and it will just work, dynamic linking works by default without
-invoking pkg-config and using meson wrap install [litterally any project] is super easy, and feels way better than writting 100 lines of CMake and trying
-to compile opencv from source or something like that, Bazel is also really similar but doesn't work as well imo. Meson is also officially supported by
-Gnome and GTK and I just happen to write those applications so that's also a good thing. Now how meson wrap works:
+invoking pkg-config and using `meson wrap install [some library]` is super easy, and feels way better than writting 100 lines of CMake and trying
+to compile gtest from source or something like that, Bazel also exits but I don't really know anything about it. Meson is also officially supported by
+Gnome and GTK and I just happen to be writing those applications so that's also a good thing. Now how meson wrap works:
 
 ```sh
 
 mkdir -p subprojects
 meson install gtest
 meson --reconfigure build/
+
+# some virus blog I can't find the link to but probably also in the documentation
 
 ```
 
@@ -36,8 +43,9 @@ gtest_dep = gtest.get_variable('gtest_dep') # name of deps variable is [library]
 executable('project', sources,
 	dependencies: [gtest_dep],
 	install true)
+	
+# the documentation https://mesonbuild.com/Subprojects.html
 
 ```
 
-here we can pull gtest from out subprojects folder which contains in this case gtest, then gtest has some set of dependencies that we also must pull down
-then we can link this to our executable.
+This is basicly just linking deps to the executable.
