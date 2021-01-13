@@ -1,4 +1,4 @@
-# Meson with Vim
+## Meson with Vim
 
 So essentially you can create a compile_commands.json and coc-vim will pick up that file and allow you to use external libraries in auto completion.
 For some reason this works by default in vscode but you must move compile_commands.json to your src file in vim. This is somwhat annoying but I can
