@@ -1,0 +1,14 @@
+[
+  {
+    "directory": "/home/loganj/Code/CC/Doodoo/build",
+    "command": "ccache c++ -Isrc/googletest_example.p -Isrc -I../src -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -Wextra -std=gnu++2a -g -pthread -isystem../subprojects/googletest-release-1.10.0/googletest -isystemsubprojects/googletest-release-1.10.0/googletest -isystem../subprojects/googletest-release-1.10.0/googletest/include -MD -MQ src/googletest_example.p/main.cc.o -MF src/googletest_example.p/main.cc.o.d -o src/googletest_example.p/main.cc.o -c ../src/main.cc",
+    "file": "../src/main.cc",
+    "output": "src/googletest_example.p/main.cc.o"
+  },
+  {
+    "directory": "/home/loganj/Code/CC/Doodoo/build",
+    "command": "ccache c++ -Isrc/googletest_example.p -Isrc -I../src -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -Wextra -std=gnu++2a -g -pthread -isystem../subprojects/googletest-release-1.10.0/googletest -isystemsubprojects/googletest-release-1.10.0/googletest -isystem../subprojects/googletest-release-1.10.0/googletest/include -MD -MQ src/googletest_example.p/.._subprojects_googletest-release-1.10.0_googletest_src_gtest-all.cc.o -MF src/googletest_example.p/.._subprojects_googletest-release-1.10.0_googletest_src_gtest-all.cc.o.d -o src/googletest_example.p/.._subprojects_googletest-release-1.10.0_googletest_src_gtest-all.cc.o -c ../subprojects/googletest-release-1.10.0/googletest/src/gtest-all.cc",
+    "file": "../subprojects/googletest-release-1.10.0/googletest/src/gtest-all.cc",
+    "output": "src/googletest_example.p/.._subprojects_googletest-release-1.10.0_googletest_src_gtest-all.cc.o"
+  }
+]

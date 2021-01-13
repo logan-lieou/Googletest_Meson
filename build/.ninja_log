@@ -1,0 +1,17 @@
+# ninja log v5
+0	2757	1610576913791392260	src/doodoo.p/main.cc.o	356e53c40741f5bc
+2760	3053	1610576914103394484	src/doodoo	29c542c7dc9c08eb
+9	2680	1610577067449077277	src/doodoo.p/main.cc.o	356e53c40741f5bc
+2680	2943	1610577067726077905	src/doodoo	29c542c7dc9c08eb
+0	308	1610580107627302080	build.ninja	9f14bdeff1b03e3a
+2	393	1610580108056300684	src/doodoo.p/main.cc.o	7de033f69b22659b
+2	8230	1610580115876275238	src/doodoo.p/.._subprojects_googletest-release-1.10.0_googletest_src_gtest-all.cc.o	510ee11c6c16d12f
+8231	8380	1610580116044274691	src/doodoo	754bb573f3d4b6ef
+0	312	1610581107357028471	build.ninja	9f14bdeff1b03e3a
+0	168	1610581107547027847	src/doodoo.p/.._subprojects_googletest-release-1.10.0_googletest_src_gtest-all.cc.o	4d14e172cac08ff
+0	1072	1610581108465024831	src/doodoo.p/main.cc.o	567a9cc6e4258bb7
+1072	1208	1610581108602024381	src/doodoo	961c20fe2d21fa97
+0	307	1610581138991924529	build.ninja	9f14bdeff1b03e3a
+0	1154	1610581140180920623	src/googletest_example.p/main.cc.o	70a95a3bb40c7013
+0	8378	1610581147375896982	src/googletest_example.p/.._subprojects_googletest-release-1.10.0_googletest_src_gtest-all.cc.o	286dd9359d5835eb
+8378	8526	1610581147553896397	src/googletest_example	e5ef810a37d39d12
