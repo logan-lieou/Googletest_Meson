@@ -1,24 +1,20 @@
-Build started at 2021-01-13T17:38:58.930985
+Build started at 2021-01-13T18:00:16.878104
 Main binary: /usr/bin/python3
 Build Options: -Dbackend=ninja
 Python system: Linux
 The Meson build system
 Version: 0.56.0
-Source dir: /home/loganj/Code/CC/Doodoo
-Build dir: /home/loganj/Code/CC/Doodoo/build
+Source dir: /home/loganj/Code/CC/GoogleTest_Example
+Build dir: /home/loganj/Code/CC/GoogleTest_Example/build
 Build type: native build
 Project name: googletest_example
-Project version: 0.1.0
-C compiler for the host machine: ccache cc (gcc 9.3.0 "cc (Solus) 9.3.0")
-C linker for the host machine: cc ld.bfd 2.34
-None of 'AR' are defined in the environment, not changing global flags.
+Project version: undefined
 C++ compiler for the host machine: ccache c++ (gcc 9.3.0 "c++ (Solus) 9.3.0")
 C++ linker for the host machine: c++ ld.bfd 2.34
-C compiler for the build machine: ccache cc (gcc 9.3.0 "cc (Solus) 9.3.0")
-C linker for the build machine: cc ld.bfd 2.34
 None of 'AR' are defined in the environment, not changing global flags.
 C++ compiler for the build machine: ccache c++ (gcc 9.3.0 "c++ (Solus) 9.3.0")
 C++ linker for the build machine: c++ ld.bfd 2.34
+None of 'AR' are defined in the environment, not changing global flags.
 Build machine cpu family: x86_64
 Build machine cpu: x86_64
 Host machine cpu family: x86_64
@@ -43,15 +39,15 @@ Subproject gtest finished.
 
 Build targets in project: 1
 
-googletest_example 0.1.0
+googletest_example undefined
 
   Subprojects
     gtest: YES
 
 Found ninja-1.10.2 at /usr/bin/ninja
 Running compile:
-Working directory:  /home/loganj/Code/CC/Doodoo/build/meson-private/tmpuu93s2qm
-Command line:  ccache c++ /home/loganj/Code/CC/Doodoo/build/meson-private/tmpuu93s2qm/testfile.cpp -o /home/loganj/Code/CC/Doodoo/build/meson-private/tmpuu93s2qm/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive --print-search-dirs 
+Working directory:  /home/loganj/Code/CC/GoogleTest_Example/build/meson-private/tmp17h0hfy8
+Command line:  ccache c++ /home/loganj/Code/CC/GoogleTest_Example/build/meson-private/tmp17h0hfy8/testfile.cpp -o /home/loganj/Code/CC/GoogleTest_Example/build/meson-private/tmp17h0hfy8/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive --print-search-dirs 
 
 Code:
  

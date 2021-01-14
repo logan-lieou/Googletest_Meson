@@ -15,3 +15,7 @@
 0	1154	1610581140180920623	src/googletest_example.p/main.cc.o	70a95a3bb40c7013
 0	8378	1610581147375896982	src/googletest_example.p/.._subprojects_googletest-release-1.10.0_googletest_src_gtest-all.cc.o	286dd9359d5835eb
 8378	8526	1610581147553896397	src/googletest_example	e5ef810a37d39d12
+0	307	1610582416938047002	build.ninja	7df4db6bf9071647
+0	720	1610582417693093527	src/googletest_example.p/main.cc.o	646632287e9218d0
+1	7319	1610582424276504641	src/googletest_example.p/.._subprojects_googletest-release-1.10.0_googletest_src_gtest-all.cc.o	e4fbd53e4c4cdc85
+7319	7446	1610582424421513812	src/googletest_example	e5ef810a37d39d12
